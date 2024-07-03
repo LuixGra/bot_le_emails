@@ -1,0 +1,86 @@
++--------------------------------------+
+|          Início do Programa          |
++--------------------------------------+
+                    |
+                    v
++--------------------------------------+
+|    Autenticação no Email              |
+|                                      |
+|  Bibliotecas/APIs:                   |  ok
+|  - IMAP ou POP3 (para acesso ao email)|
+|  - Exemplo: Python's `imaplib`       |
+|                                      |
+|  Algoritmo:                          |
+|  - Conexão com servidor de email     |
+|  - Autenticação com usuário e senha   |
+|  - Verificação de conexão             |
++--------------------------------------+
+                    |
+                    v
++--------------------------------------+
+|   Seleção da Pasta de Download        |
+|                                      |
+|  Bibliotecas/APIs:                   |
+|  - GUI Toolkit (Tkinter, PyQt, etc.)  |
+|                                      |
+|  Algoritmo:                          |  ok
+|  - Interface para seleção de pasta    |
+|  - Confirmação da escolha pelo usuário|
++--------------------------------------+
+                    |
+                    v
++--------------------------------------+
+|   Download de Mensagens e Anexos      |
+|                                      |
+|  Bibliotecas/APIs:                   |
+|  - IMAP ou POP3                      |
+|  - Exemplo: `imaplib` para Python     |  ok
+|                                      |
+|  Algoritmo:                          |
+|  - Leitura da caixa de entrada       |
+|  - Identificação e download de anexos |
+|  - Salvar anexos na pasta escolhida   |
++--------------------------------------+
+                    |
+                    v
++--------------------------------------+
+|   Processamento dos Anexos            |
+|                                      |
+|  Bibliotecas/APIs:                   |
+|  - PDF e imagem parsing libraries     |
+|  - Exemplos: `PyMuPDF`, `pdfplumber` |
+|              `Pillow` (para imagens) |  testing
+|                                      |
+|  Algoritmo:                          |
+|  - Verificar tipo de arquivo (PDF ou imagem) |
+|  - Buscar código de barras nos documentos |
+|  - Extrair informações relevantes     |
++--------------------------------------+
+                    |
+                    v
++--------------------------------------+
+|   Validação e Exportação para Planilha|
+|                                      |
+|  Bibliotecas/APIs:                   |
+|  - Planilhas (Excel, CSV) libraries   |
+|  - Exemplo: `openpyxl` para Python    |
+|                                      |
+|  Algoritmo:                          |
+|  - Validar código de barras encontrado|
+|  - Registrar informações na planilha  |
+|  - Informar usuário sobre boletos    |
++--------------------------------------+
+                    |
+                    v
++--------------------------------------+
+|   Finalização do Programa             |
+|                                      |
+|  Bibliotecas/APIs:                   |
+|  - GUI Toolkit (para exibir mensagem) |
+|  - Exemplo: Tkinter, PyQt             |
+|                                      |
+|  Algoritmo:                          |
+|  - Exibir mensagem de conclusão       |
+|  - Opção para iniciar novo processo  |
+|  - Opção para encerrar o programa     |
++--------------------------------------+
