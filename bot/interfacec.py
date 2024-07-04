@@ -72,7 +72,7 @@ def pegaUser(interface):
         return email,senha
 
 
-
+'''
 import imaplib
 import email
 from email.header import decode_header
@@ -80,7 +80,7 @@ import os
 
 import time
 
-'''
+
 def Entrar(interface):
     EMAIL, SENHA = pegaUser(interface)
     IMAP_SERVER = "imap.gmail.com"
