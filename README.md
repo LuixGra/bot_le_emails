@@ -1,5 +1,24 @@
-Esse é um bot que no momento abre quantos mails vc quiser com um assunto específico(Codigo de barras) não lido e baixa os anexos que estiverem no email.
+!DISCLAIMER!
+EDUCATIONAL PORPUSES ONLY
 
-v1
+Libs:
+- IMAP
+- EMAIL
+- TKINTER
+- PYZBAR
+- PIL
+- FITZ
 
-feel free to use
+Esse é um programa útil que le emails criptrografados e baixa seus respectivos anexos (se possuir um)
+
+
+![image](https://github.com/user-attachments/assets/d2f9cf4f-6df8-45aa-8a02-7df03fd49050)
+
+(interface utilizando TKinter onde voce seleciona a pasta onde vai baixar as imagens)
+
+
+
+
+
+
+Atualmente está em versão de teste e desenvolvimento, porém, já tem as funções de baixar os emails e imagens.
